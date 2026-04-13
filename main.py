@@ -9,4 +9,3 @@ def home():
 @app.get("/skill")
 def skill(name , str):
   return ("skill" : name)
- 
