@@ -7,5 +7,5 @@ def home():
   return {"message" : "Hellllo"}
 
 @app.get("/skill")
-def skill(name , str):
-  return ("skill" : name)
+def skill(name : str):
+  return {"skill" : name}
